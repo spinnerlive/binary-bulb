@@ -13,7 +13,7 @@ body {
 
 h1 {
     color: rgb(177, 177, 177);
-    margin-bottom: 8%;
+    margin-bottom: 10%;
     font-size: 3.5rem;
     text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.2);
     letter-spacing: 1px;
@@ -22,6 +22,7 @@ h1 {
 .bulb-row {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 20px;
     margin-top: 20px;
 }
@@ -51,6 +52,7 @@ img.bulb {
     align-items: center;
     justify-content: center;
     margin-top: 8%;
+    /* margin-bottom: 15%; */
     color: white;
     flex-direction: column;
     font-size: 2rem;
