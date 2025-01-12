@@ -23,7 +23,7 @@ function updateDecimalOutput() {
         binaryString += bulb.classList.contains('on') ? '1' : '0';
     });
     const decimalValue = parseInt(binaryString, 2);
-    decimalOutput.textContent = `Decimal: ${decimalValue}`;
+    decimalOutput.innerHTML = `Decimal <br> ${decimalValue}`;
 }
 
 updateDecimalOutput();
